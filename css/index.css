@@ -36,17 +36,38 @@ footer, header, hgroup, menu, nav, section {
 }
 
     .about-box{
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-evenly;
         margin-top: 20px;
         margin-bottom: 20px;
         border-bottom: 1px dashed black;
+        padding: 20px;
 }
 
+logo{
+    height: 40px;
+}
+
+    img{
+        margin: 20px;
+    }
+
     .navTop{
+        justify-content: center;
+        align-items: flex-end;
         display: flex;
         flex-direction: row;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+button:hover{
+    background-color:rgb(129, 129, 129);
+    transition: .5s;
 }
 
     .navTop > div{
@@ -83,9 +104,11 @@ footer, header, hgroup, menu, nav, section {
 }
 
     .foursquare{
-        border: solid firebrick;
         border-bottom: 1px dashed black;
-
+        width: 48%;
+        padding: 0 1%;
+        padding-top: 20px;
+        padding-bottom: 20px;  
     }
 
     .container {
@@ -97,18 +120,19 @@ footer, header, hgroup, menu, nav, section {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-top: 20px;
         margin-bottom: 20px;
         border-bottom: 1px dashed black;
         flex-direction: row;
-        border: solid hotpink;
 }
 
     .text-container {
         width: 48%;
         padding: 0 1%;
         padding-bottom: 20px;  
-        border: solid lawngreen;
+}
+
+    .LetsWork{
+        padding: 20px;
 }
 
     .middle-content {
