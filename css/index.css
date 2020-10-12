@@ -35,22 +35,18 @@ footer, header, hgroup, menu, nav, section {
 	    line-height: 1;
 }
 
+    .navTop{
+        display: flex;
+        flex-direction: row;
+}
+
+.navTop > div{
+    margin: 3%;
+}
+
     .headerImage{
         width: 800px;
         margin: 0 auto;
-}
-
-    ol, ul {
-	    list-style: none;
-}
-    blockquote, q {
-	    quotes: none;
-}
-
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-	    content: '';
-	    content: none;
 }
 
     table {
